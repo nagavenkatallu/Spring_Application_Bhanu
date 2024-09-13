@@ -18,7 +18,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @EqualsAndHashCode
 @Builder
 @Document(collection = "users")
-public class User {
+public class Customer {
 
     @Id
     private String id;
